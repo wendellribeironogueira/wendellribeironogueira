@@ -2,7 +2,7 @@
 <p align="center">💻 Analista de Suporte & Automação • Campinas/SP</p>
 
 <p align="center">
-  🔧 Excel VBA • 📊 Power BI • 🖥️ Infraestrutura • 🐍 Python em formação
+  🔧 Suporte e Automação de Processos • 🖥️ Infraestrutura • 🐍 Python em formação
 </p>
 
 ---
