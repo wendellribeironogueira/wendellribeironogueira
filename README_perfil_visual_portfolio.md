@@ -2,7 +2,7 @@
 <p align="center">💻 Analista de Suporte & Automação • Campinas/SP</p>
 
 <p align="center">
-  🔧 Excel VBA • 📊 Power BI • 🖥️ Infraestrutura • 🐍 Python em formação
+  🔧 Suporte e Automação de Processos • 🖥️ Infraestrutura • 🐍 Python em formação
 </p>
 
 ---
@@ -27,8 +27,7 @@ Automação em Excel VBA desenvolvida para a PagBank, que eliminou controles man
 
 | Categoria        | Ferramentas                            |
 |------------------|----------------------------------------|
-| Automação        | VBA, Excel Avançado, Power Automate     |
-| Visualização     | Power BI (básico a intermediário)       |
+| Automação        | VBA, Excel Avançado, Python |
 | Infraestrutura   | Windows Server, Active Directory, Office 365 |
 | Em aprendizado   | Python (projeto MCP, automações e APIs) |
 
@@ -42,4 +41,4 @@ Automação em Excel VBA desenvolvida para a PagBank, que eliminou controles man
 
 ---
 
-📌 *Este perfil está em constante evolução — novos projetos em Python e Power Platform em breve!*
+📌 *Este perfil está em constante evolução — novos projetos em Python em breve!*
