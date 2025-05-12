@@ -28,7 +28,6 @@ Automação em Excel VBA desenvolvida para a PagBank, que eliminou controles man
 | Categoria        | Ferramentas                            |
 |------------------|----------------------------------------|
 | Automação        | VBA, Excel Avançado, Power Automate     |
-| Visualização     | Power BI (básico a intermediário)       |
 | Infraestrutura   | Windows Server, Active Directory, Office 365 |
 | Em aprendizado   | Python (projeto MCP, automações e APIs) |
 
