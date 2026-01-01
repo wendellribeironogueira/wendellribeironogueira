@@ -10,11 +10,11 @@
   <a href="https://github.com/wendellribeironogueira"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
-```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║ 💼 20+ anos em TI  |  ☁️ AWS Cloud  |  ⚙️ DevOps  |🐧 Linux ║
+<code>
+╔═══════════════════════════════════════════════════════════════╗<br>
+║&nbsp;💼&nbsp;20+&nbsp;anos&nbsp;em&nbsp;TI&nbsp;&nbsp;|&nbsp;&nbsp;☁️&nbsp;AWS&nbsp;Cloud&nbsp;&nbsp;|&nbsp;&nbsp;⚙️&nbsp;DevOps&nbsp;&nbsp;|🐧&nbsp;Linux&nbsp;║<br>
 ╚═══════════════════════════════════════════════════════════════╝
-```
+</code>
 
 </div>
 
