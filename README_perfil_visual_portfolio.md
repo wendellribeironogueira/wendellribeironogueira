@@ -1,243 +1,282 @@
 <div align="center">
 
-# 👋 Olá, eu sou o Wendell Ribeiro Nogueira
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=300&section=header&text=Wendell%20Ribeiro&fontSize=90&animation=fadeIn&fontAlignY=38&desc=SysOps%20•%20DevOps%20•%20AWS%20Cloud&descAlignY=55&descAlign=50)
 
-### SysOps Engineer | DevOps | AWS Cloud Practitioner
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=20%2B+anos+em+Infraestrutura+TI;AWS+Cloud+Practitioner+%E2%98%81%EF%B8%8F;Terraform+%7C+Docker+%7C+CI%2FCD;De+Suporte+para+DevOps+%F0%9F%9A%80;Automatizando+o+Impossível+%F0%9F%A4%96" alt="Typing SVG" />
 
-<p>
-  <a href="https://linkedin.com/in/wendell-ribeiro-nogueira"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:wenri22@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/wendellribeironogueira"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
+<br/>
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wendell-ribeiro-nogueira)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wenri22@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://github.com/wendellribeironogueira)
 
-## 🚀 Sobre Mim
-
-Profissional de TI com **20+ anos de experiência** em infraestrutura, suporte técnico e automação de processos, atualmente em **transição estratégica para SysOps/DevOps**. Histórico comprovado em ambientes corporativos críticos (data centers, financeiro, varejo, logística) com foco em **eficiência operacional** e **entrega de resultados mensuráveis**.
-
-🎯 **Certificado AWS Cloud Practitioner** com portfólio técnico ativo em produção na nuvem  
-🔧 **Especialista em automação** - criei soluções que eliminaram 90% do tempo operacional em processos manuais  
-📊 **Mentalidade data-driven** - dashboards, métricas operacionais e análise de indicadores  
-🐳 **Infraestrutura moderna** - Terraform, Docker, CI/CD, monitoramento de sistemas  
-
----
-
-## 🛠️ Stack Técnico
-
-### ☁️ Cloud & Infrastructure as Code
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**AWS:** EC2, S3, ECR, IAM, CloudWatch, VPC, DynamoDB, EBS  
-**Terraform:** Módulos reutilizáveis, backend remoto (S3 + DynamoDB), state locking  
-**Docker:** Containerização, Docker Compose, imagens otimizadas, deploy em produção  
-
-### 🔄 DevOps & CI/CD
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**Pipelines:** GitHub Actions com OIDC authentication, workflows automatizados, GitOps  
-**Monitoramento:** CloudWatch Alarms, scripts Bash, análise de logs (syslog, journalctl)  
-**Linux:** Ubuntu, systemd, administração avançada, scripts de automação  
-
-### 💻 Desenvolvimento & Automação
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**Linguagens:** Python (backend, automação), Bash (scripts avançados), JavaScript, VBA  
-**Frameworks:** Projetos backend com Python (Bootcamp Santander 2025)  
-**Ferramentas:** Excel Avançado, Power BI, SQL, integração de sistemas  
-
-### 🖥️ Sistemas & Redes
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-0078D6?style=flat-square&logo=windows&logoColor=white)
-
-**Windows Server:** Active Directory, File Server, WSUS, GPO  
-**Redes:** TCP/IP, DNS, DHCP, SSH, firewall, troubleshooting L1/L2  
-**Virtualização:** Ambientes virtualizados, experiência em data centers  
-
----
-
-## 🏆 Projetos em Destaque
-
-### 🏗️ [Backend-IaC-InfraCloud-AWS](https://github.com/wendellribeironogueira/Backend-IaC-InfraCloud-AWS)
-**Infraestrutura Base para Terraform na AWS**  
-Bootstrap automatizado de backend remoto (S3 + DynamoDB) e autenticação OIDC para GitHub Actions.
-
-```terraform
-✅ Bucket S3 privado e versionado para state remoto
-✅ Tabela DynamoDB para state locking
-✅ IAM Role com OIDC provider (autenticação sem chaves fixas)
-✅ Workflow com 3 modos: Bootstrap, CI/CD Normal, Fix Checksum
-```
-
-**Stack:** Terraform | AWS (S3, DynamoDB, IAM) | GitHub Actions | OIDC
-
----
-
-### ☁️ [TERRAFORM-AWS (InfraCloud)](https://github.com/wendellribeironogueira/TERRAFORM-AWS)
-**Provisionamento Completo de Infraestrutura na AWS**  
-Código IaC modular com recursos de compute, container registry, segurança e monitoramento.
-
-```terraform
-✅ EC2 (Ubuntu 22.04) + EBS criptografado + Elastic IP
-✅ AWS ECR privado com scan de vulnerabilidades
-✅ IAM Roles com least privilege + Security Groups
-✅ CloudWatch Logs + Alarmes de CPU e Status Check
-✅ Pipeline CI/CD automatizado com OIDC
-```
-
-**Stack:** Terraform (módulos reutilizáveis) | AWS | GitHub Actions | Segurança
-
----
-
-### 🐳 [Portfólio DevOps (meu-site)](https://github.com/wendellribeironogueira/meu-site)
-**Aplicação Full-Stack Containerizada em Produção na AWS**  
-Site de portfólio com backend API rodando em Docker na AWS EC2.
-
-```bash
-✅ Frontend + Backend containerizados
-✅ Docker Compose para orquestração
-✅ Deploy automatizado via GitHub Actions
-✅ Nginx como reverse proxy
-✅ Monitoramento de containers em tempo real
-```
-
-**Stack:** Docker | Docker Compose | AWS EC2 | Nginx | GitHub Actions
-
----
-
-### 🧩 [Monitoramento Linux com Persistência](https://github.com/wendellribeironogueira/Monitoramento_Sistema_Linux_Com_Persistencia)
-**Script Bash Avançado para SysOps**  
-Sistema automatizado de coleta de métricas e análise de integridade de servidores Linux.
-
-```bash
-✅ Monitoramento de logs críticos (syslog, auth.log)
-✅ Análise de disco, inodes, CPU, memória e I/O
-✅ Status de serviços systemd e falhas do journal
-✅ Rotação e compressão automática de logs
-✅ Alertas automáticos baseados em thresholds
-✅ Execução via systemd timer (agendamento)
-```
-
-**Stack:** Bash | systemd | Linux | Monitoramento | Pronto para Prometheus/Grafana
-
----
-
-### 📊 [GestorDePolo - Automação PagBank](https://github.com/wendellribeironogueira/GestorDePolo_AutomacaoEstoquePagBank)
-**Sistema de Automação Logística com Impacto Real**  
-Solução VBA que eliminou 90%+ do tempo operacional em processos manuais.
-
-```vba
-✅ Módulo IMPORTAR: Integração automática Workfinity + SAP
-✅ Módulo REVERSA: Validação de seriais defeituosos
-✅ Módulo RELATÓRIO: Dashboards com SLA, métricas e alertas
-✅ Redução comprovada de horas/dia em lançamentos manuais
-✅ Padronização de processos e eliminação de retrabalho
-```
-
-**Stack:** VBA | Excel | Scripting.Dictionary | Integração de Sistemas | Análise de Dados
-
----
-
-### 🐍 [Sistema Bancário Python](https://github.com/wendellribeironogueira/Sistema-Bancario-em-Python-Bootcamp-Santander-2025)
-**Bootcamp Santander 2025 - Back-End com Python**  
-Sistema bancário completo com POO, demonstrando domínio de Python backend.
-
-**Stack:** Python | POO | Backend Development
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wendellribeironogueira&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wendellribeironogueira&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
+<br/>
+
+## 🚀 Quem Sou Eu?
+
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+```yaml
+nome: Wendell Ribeiro Nogueira
+localização: Campinas, SP 🇧🇷
+cargo_atual: SysOps Engineer em transição
+experiência: 20+ anos em TI
+foco: DevOps | Cloud | Automação
+
+habilidades_principais:
+  cloud: [AWS EC2, S3, ECR, IAM, CloudWatch]
+  iac: [Terraform, Docker, GitHub Actions]
+  linguagens: [Python, Bash, JavaScript, VBA]
+  sistemas: [Linux, Windows Server, Redes]
+  
+super_poder: >
+  Transformo processos manuais em automações
+  que eliminam 90% do tempo operacional 🎯
+```
+
+<br clear="right"/>
+
 ---
 
-## 🎓 Certificações
+## 🛠️ Arsenal Tecnológico
 
 <div align="center">
 
-| Certificação | Instituição | Ano |
-|:---|:---|:---:|
-| ☁️ **AWS Cloud Practitioner** | Amazon Web Services | 2025 |
-| 🎓 **CS50 - Ciência da Computação** | Harvard University | 2025 |
-| 🐍 **Bootcamp Back-End Python** | Santander + DIO | 2025 |
-| 🐧 **Linux: Scripts & Administração** | Alura | 2024 |
-| 💻 **Lógica de Programação JavaScript** | Alura | 2024 |
-| 📚 **AWS Educate Cloud 101 & Storage** | AWS Educate | 2025 |
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### 💻 Linguagens & Ferramentas
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### 🖥️ Sistemas & Infraestrutura
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
 </div>
 
 ---
 
-## 💼 Experiência Profissional Relevante
+## 🎯 Projetos que Fazem Diferença
 
-### 🏢 PagBank | Automação de Processos e Apoio Logístico
-**Dez 2024 - Mar 2025** | Campinas, SP
+<table>
+<tr>
+<td width="50%">
 
-- 🚀 Desenvolveu sistema completo de automação que **eliminou 90%+ do tempo operacional**
-- 👥 Promovido informalmente para gestão técnica de equipe logística
-- 🔧 Integração de sistemas: Workfinity + SAP + controles locais
-- 📊 Criação de dashboards operacionais e validadores automatizados
+### 🏗️ [Backend-IaC-AWS](https://github.com/wendellribeironogueira/Backend-IaC-InfraCloud-AWS)
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-### 📡 Mamtech Tecnologia | Analista de Suporte Pleno
-**Abr 2024 - Ago 2024** | Projeto Neoenergia (Migração Oi → Claro)
+**Bootstrap de infraestrutura Terraform na AWS**
 
-- 🔍 Monitoramento proativo de links de dados e voz (múltiplas unidades)
-- 🛠️ Troubleshooting avançado com análise de causa raiz
-- 📝 Gestão de incidentes e documentação técnica
+- 🔐 Autenticação OIDC (sem chaves fixas)
+- 📦 Backend remoto S3 + DynamoDB
+- 🤖 Pipeline CI/CD automatizado
+- ⚡ 3 modos: Bootstrap | Normal | Fix
 
-### 🖥️ OTG Open Technologies Group | Analista de Suporte
-**Mar 2009 - Set 2011** | Onsite IBM HRT (Data Center)
+`Terraform` `AWS` `GitHub Actions` `OIDC`
 
-- 🏢 Suporte de hardware em servidores de produção críticos
-- ⚙️ Manutenção avançada: RAID, SCSI, firmware, rebuild de discos
-- 📊 Site Survey/Forecast e análise preventiva de Event Logs
+</td>
+<td width="50%">
+
+### ☁️ [InfraCloud-Terraform](https://github.com/wendellribeironogueira/TERRAFORM-AWS)
+<img src="https://user-images.githubusercontent.com/74038190/243078651-2c0eef4b-7b75-42bd-9722-4bea97a2d532.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjczMDQwMzgsIm5iZiI6MTc2NzMwMzczOCwicGF0aCI6Ii83NDAzODE5MC8yNDMwNzg2NTEtMmMwZWVmNGItN2I3NS00MmJkLTk3MjItNGJlYTk3YTJkNTMyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTAxVDIxNDIxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlNGUxOTg5ZGNlNDk2MGI0ZjdhMDBjMjgwYzkzNTdjOGM2MzBlOWQyZWI5ODM4YTgwZjg5YjhjZTIyNGI3OGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3oufSaSkT1p7AFEb0gVeOhWjZxr0sX_Cdk7TJRJS_C0" width="400">
+
+**Infraestrutura completa como código**
+
+- 🖥️ EC2 + EBS criptografado + Elastic IP
+- 🐳 ECR privado com scan de vulnerabilidades
+- 🔒 IAM Roles com least privilege
+- 📊 CloudWatch Logs + Alarmes
+
+`Terraform` `AWS` `Security` `IaC`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🐳 [Portfólio DevOps](https://github.com/wendellribeironogueira/meu-site)
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UBJ8qndf3mU3kHpOwhptEw.png" width="300">
+
+**App full-stack rodando na AWS**
+
+- 📦 Containerizado com Docker
+- 🔄 Deploy automatizado via CI/CD
+- 🌐 Nginx como reverse proxy
+- 📊 Monitoramento em tempo real
+
+`Docker` `AWS EC2` `Nginx` `CI/CD`
+
+</td>
+<td width="50%">
+
+### 🧩 [Monitor Linux](https://github.com/wendellribeironogueira/Monitoramento_Sistema_Linux_Com_Persistencia)
+<img src="https://private-user-images.githubusercontent.com/74038190/238200433-3fb2cdf6-8920-462e-87a4-95af376418aa.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjczMDM0NDIsIm5iZiI6MTc2NzMwMzE0MiwicGF0aCI6Ii83NDAzODE5MC8yMzgyMDA0MzMtM2ZiMmNkZjYtODkyMC00NjJlLTg3YTQtOTVhZjM3NjQxOGFhLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTAxVDIxMzIyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc3MGUzZWRlZWJhNDEzNjE0YjMxYWRjNjhjOGFkMWNhNDM2M2VlNzI1NmU4M2M3Y2U2MmI1N2RmYzg5ZjIzOTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HVCP-dUtCLU4ehPvdS81Bp1mTEunHy_GFG4dyhKqTi0" width="400">
+
+**Script Bash avançado para SysOps**
+
+- 📈 Coleta automática de métricas
+- 🔍 Análise de logs críticos
+- ⚙️ Monitoramento systemd services
+- 🚨 Alertas baseados em thresholds
+
+`Bash` `systemd` `Linux` `Monitoring`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📊 [GestorDePolo](https://github.com/wendellribeironogueira/GestorDePolo_AutomacaoEstoquePagBank)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
+
+**Automação que eliminou 90% do tempo operacional**
+
+- 🤖 Integração Workfinity + SAP
+- ✅ Validação automática de reversas
+- 📊 Dashboards com SLA e métricas
+- 🎯 Impacto real medido na PagBank
+
+`VBA` `Excel` `Automação` `Impacto Real`
+
+</td>
+<td width="50%">
+
+### 🐍 [Sistema Bancário](https://github.com/wendellribeironogueira/Sistema-Bancario-em-Python-Bootcamp-Santander-2025)
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="300">
+
+**Backend Python do zero**
+
+- 🏦 Sistema bancário completo
+- 🎓 Bootcamp Santander 2025
+- 🧩 Programação Orientada a Objetos
+- 💻 Projeto prático aplicado
+
+`Python` `POO` `Backend` `Bootcamp`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎯 O Que Me Motiva
+## 📊 GitHub Analytics
 
-```python
-def minha_missao():
-    return {
-        "foco": "Automatizar processos que geram impacto mensurável",
-        "paixao": "Infraestrutura como código e operações eficientes",
-        "objetivo": "Trabalhar em ambientes que valorizem inovação",
-        "contribuicao": "Soluções escaláveis em SysOps/DevOps/Cloud"
-    }
-```
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wendellribeironogueira&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667EEA&icon_color=667EEA&text_color=FFFFFF)
 
-🔍 **Busco oportunidades em:** SysOps, DevOps, Cloud Infrastructure, Site Reliability Engineering  
-📍 **Localização:** Campinas/SP (presencial ou remoto)  
-🌐 **Disponibilidade:** Imediata
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=wendellribeironogueira&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667EEA&text_color=FFFFFF&langs_count=8)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wendellribeironogueira&theme=radical&hide_border=true&background=0D1117&ring=667EEA&fire=667EEA&currStreakLabel=667EEA)
+
+</div>
 
 ---
 
-## 📫 Vamos Conversar?
+## 🎓 Certificações & Conquistas
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wendell-ribeiro-nogueira)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wenri22@gmail.com)
+| 🏆 Certificação | 🏢 Instituição | 📅 Ano |
+|:---|:---:|:---:|
+| ☁️ AWS Cloud Practitioner | Amazon Web Services | 2025 |
+| 🎓 CS50 - Computer Science | Harvard University | 2025 |
+| 🐍 Bootcamp Back-End Python | Santander + DIO | 2025 |
+| 🐧 Linux: Scripts & Admin | Alura | 2024 |
+| 💻 JavaScript Programming | Alura | 2024 |
+| 📚 AWS Educate (Cloud 101 & Storage) | AWS Educate | 2025 |
+
+</div>
+
+---
+
+## 💡 Destaques da Carreira
+
+<div align="center">
+
+```diff
++ 🚀 Eliminei 90% do tempo operacional com automação no PagBank
++ ☁️ Infraestrutura AWS rodando em produção com Terraform + Docker
++ 🔧 20+ anos evoluindo de suporte técnico para DevOps/Cloud
++ 🏢 Experiência em data centers, financeiro, varejo e logística
++ 📊 Especialista em transformar processos manuais em soluções automatizadas
++ 🎯 Mentalidade data-driven: dashboards, métricas e análise de indicadores
+```
+
+</div>
+
+---
+
+## 🎯 O Que Estou Buscando
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<h3>🎯 Posições</h3>
+
+SysOps Engineer<br/>
+DevOps Engineer<br/>
+Cloud Infrastructure<br/>
+Site Reliability (SRE)
+
+</td>
+<td width="33%" align="center">
+
+<h3>📍 Localização</h3>
+
+Campinas/SP<br/>
+Presencial ou Remoto<br/>
+Disponibilidade: Imediata
+
+</td>
+<td width="33%" align="center">
+
+<h3>💼 O Que Ofereço</h3>
+
+20+ anos de experiência<br/>
+Mindset de automação<br/>
+Resultados mensuráveis<br/>
+Evolução contínua
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+### 📬 Vamos Conversar?
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wendell-ribeiro-nogueira)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wenri22@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wendellribeironogueira)
 
-</div>
+<br/>
 
----
+### 💭 *"De operações manuais para infraestrutura cloud: transformação através da automação"*
 
-<div align="center">
+<br/>
 
-### ⚡ *"De suporte técnico a infraestrutura cloud: 20 anos de evolução contínua."*
+![Visitor Count](https://profile-counter.glitch.me/wendellribeironogueira/count.svg)
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=wendellribeironogueira&label=Visitantes&countColor=%23263759&style=flat)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=100&section=footer"/>
 
 </div>
